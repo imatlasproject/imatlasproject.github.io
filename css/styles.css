@@ -1,0 +1,122 @@
+body {
+  background-color: black;
+  color: white;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+
+#home-links {
+  width: 8%;
+}
+
+#home-video {
+  position: fixed;
+  top: 5%;
+  left: 10%;
+  width: 80%;
+  z-index:-2;
+}
+
+#releases-button{
+  cursor: pointer;
+}
+
+.overlay-color   {
+  content:"";
+  position: absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  background: rgba(0,0,255,0.15);
+  z-index:-1;
+}
+
+.home-content {
+  position: fixed;
+  z-index: 2;
+}
+
+h1 {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 3rem;
+  margin: 0.83em 0;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+h2 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 2rem;
+}
+
+p {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.25rem;
+}
+
+.link-icon {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 3rem;
+  line-height: 3rem;
+  margin: 5% 1%;
+  color: white;
+}
+
+.a-home {
+  display:block;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  color: white;
+  text-decoration: none;
+}
+
+.a-home:hover {
+  color: #7e8a97;
+}
+
+.container-fluid {
+  padding: 1% 2%;
+}
+
+.releases {
+  text-align: center;
+  padding: 0.5% 5%;
+
+  width: 75%;
+  height: 60%;
+  /* position: absolute; */
+  margin: 3% auto;
+  z-index: 5;
+}
+
+.about {
+  text-align: center;
+  padding: 3% 5%;
+
+  width: 50%;
+  height: 60%;
+  /* position: absolute; */
+  margin: auto;
+  z-index: 5;
+}
+
+.about-inner {
+  margin: 10% auto;
+  padding: 15% 5%;
+  height: 60%;
+  background-color: rgba(100,100,100, 0.30);
+  border-radius: 10%;
+  width: 70%;
+}
+
+.carousel-inner{
+  margin: auto;
+  padding: 3% 10%;
+  background-color: rgba(100,100,100, 0.30);
+  border-radius: 5%;
+  width: 90%;
+}

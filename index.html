@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>atlas project</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Source+Code+Pro&display=swap" rel="stylesheet">
+  <!-- boostrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <!-- font awesome icons -->
+
+  <script src="https://kit.fontawesome.com/cafa7466fe.js" crossorigin="anonymous"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- <script src="//cdn.jsdelivr.net/jquery.color-animation/1/mainfile"></script> -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <section id="home-main">
+    <div class="container-fluid">
+      <!-- background -->
+      <div class= "overlay-color">
+      </div>
+      <video autoplay muted loop id="home-video">
+        <source src="whitegray_small.mp4" type="video/mp4">
+      </video>
+
+
+      <!-- links / title -->
+      <div class="home-content">
+        <h1>atlas project</h1>
+        <div id="home-links">
+          <a id="releases-button" class="a-home">releases</a>
+          <a id="about-button" class="a-home">about</a>
+          <a class="a-home" href="https://www.youtube.com/channel/UCQPWRFvxQBCoMriYRpTgZHg?">youtube</a>
+          <a class="a-home" href="https://soundcloud.com/imatlasproject">soundcloud</a>
+          <a class="a-home" href="https://twitter.com/imatlasproject">twitter</a>
+          <a class="a-home" href="https://www.instagram.com/itsatlasproject/">instagram</a>
+      </div>
+
+      </div>
+
+      <!-- releases -->
+
+      <div class="releases">
+        <a id="releases-home-button" class="a-home">home</a>
+        <br />
+        <div id="releasesCarousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="video-area">
+                <h2>disintegrate</h2>
+                <br />
+                <iframe width="800" height="450" src="https://www.youtube.com/embed/kpT138xdMB0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br />
+                <br />
+                <a class="link-icon" href="https://soundcloud.com/imatlasproject"><i class="fab fa-soundcloud"></i></a>
+                <a class="link-icon" href="youtube.com"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#releasePrevious" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#releaseNext" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="about">
+        <a id="about-home-button" class="a-home">home</a>
+        <br />
+        <div class="about-inner">
+          <p>
+            music and website by atlas project <br />
+            visuals by <a href="">cube.animations</a>  <br />
+            <br />
+            contact: contact.atlasproject@gmail.com
+          </p>
+        </div>
+      </div>
+
+
+  </section>
+  <script src="home.js"></script>
+
+
+
+
+</body>
+
+</html>
