@@ -85,10 +85,8 @@ p {
 .releases {
   text-align: center;
   padding: 0.5% 5%;
-
-  width: 75%;
+  width: 1080px;
   height: 60%;
-  /* position: absolute; */
   margin: 3% auto;
   z-index: 5;
 }
@@ -96,10 +94,8 @@ p {
 .about {
   text-align: center;
   padding: 3% 5%;
-
-  width: 50%;
+  width: 800px;
   height: 60%;
-  /* position: absolute; */
   margin: auto;
   z-index: 5;
 }
@@ -110,7 +106,7 @@ p {
   height: 60%;
   background-color: rgba(100,100,100, 0.30);
   border-radius: 10%;
-  width: 70%;
+  width: 500px;
 }
 
 .carousel-inner{
@@ -118,5 +114,41 @@ p {
   padding: 3% 10%;
   background-color: rgba(100,100,100, 0.30);
   border-radius: 5%;
-  width: 90%;
+  width: 70%;
+}
+
+@media only screen and (orientation: portrait) {
+  #home-video {
+    position: fixed;
+    top: 5%;
+    left: -25%;
+    width: 150%;
+    overflow:hidden;
+    z-index:-2;
+  }
+  .releases {
+    padding: 3% 3%;
+  }
+  .about {
+    padding: 3% 3%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 1080px) {
+  p {
+    font-size: 1rem;
+  }
+  .releases {
+    width: 720px;
+  }
+  .about {
+    width: 720px;
+  }
+  .about-inner {
+    width: 70%;
+  }
+  .carousel-inner{
+    width: 70%;
+  }
 }
