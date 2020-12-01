@@ -1,9 +1,5 @@
 // todo
 // if (/Mobi|Android/i.test(navigator.userAgent)) {
-//     // mobile!
-    
-// }
-
 
 $(".releases").hide();
 $(".about").hide();
