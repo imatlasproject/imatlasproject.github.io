@@ -85,7 +85,7 @@ p {
 .releases {
   text-align: center;
   padding: 0.5% 5%;
-  width: 1080px;
+  width: 50%;
   height: 60%;
   margin: 3% auto;
   z-index: 5;
@@ -94,7 +94,7 @@ p {
 .about {
   text-align: center;
   padding: 3% 5%;
-  width: 800px;
+  width: 50%;
   height: 60%;
   margin: auto;
   z-index: 5;
@@ -106,7 +106,7 @@ p {
   height: 60%;
   background-color: rgba(100,100,100, 0.30);
   border-radius: 10%;
-  width: 500px;
+  width: 70%;
 }
 
 .carousel-inner{
@@ -114,7 +114,7 @@ p {
   padding: 3% 10%;
   background-color: rgba(100,100,100, 0.30);
   border-radius: 5%;
-  width: 70%;
+  width: 100%;
 }
 
 @media only screen and (orientation: portrait) {
@@ -135,20 +135,9 @@ p {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 1080px) {
+/* @media only screen and (max-width: 1080px) {
   p {
     font-size: 1rem;
   }
-  .releases {
-    width: 720px;
-  }
-  .about {
-    width: 720px;
-  }
-  .about-inner {
-    width: 70%;
-  }
-  .carousel-inner{
-    width: 70%;
-  }
-}
+
+} */

@@ -1,3 +1,10 @@
+// todo
+// if (/Mobi|Android/i.test(navigator.userAgent)) {
+//     // mobile!
+    
+// }
+
+
 $(".releases").hide();
 $(".about").hide();
 
@@ -29,3 +36,4 @@ $("#about-home-button").click(function() {
   $(".about").fadeOut();
   $("#home-video").css('filter', 'blur(0px)')
 });
+
